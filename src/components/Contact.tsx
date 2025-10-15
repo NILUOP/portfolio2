@@ -19,21 +19,12 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-<<<<<<< HEAD
       value: "nisargkumar2005",
       href: "https://github.com/niluop"
-=======
-      value: "niluop",
-      href: "https://github.com/niluop"
->>>>>>> a0e3dd454d92dd3a48f3ff33acb9dc152e7163d9
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-<<<<<<< HEAD
-      value: "nisargkumar2005",
-      href: "https://linkedin.com/in/nisarg-chaudhary"
-=======
       value: "nisarg-chaudhary",
       href: "https://linkedin.com/in/nisarg-chaudhary2/"
     },
@@ -42,7 +33,6 @@ const Contact = () => {
       label: "Instagram",
       value: "nisarg96968899",
       href: "https://instagram.com/nisarg96968899/"
->>>>>>> a0e3dd454d92dd3a48f3ff33acb9dc152e7163d9
     }
   ];
 
