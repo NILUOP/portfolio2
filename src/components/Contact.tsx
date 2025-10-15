@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Phone, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, Instagram } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -19,14 +19,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "nisargkumar2005",
-      href: "https://github.com/nisargkumar2005"
+      value: "niluop",
+      href: "https://github.com/niluop"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "nisargkumar2005",
-      href: "https://linkedin.com/in/nisargkumar2005"
+      value: "nisarg-chaudhary",
+      href: "https://linkedin.com/in/nisarg-chaudhary/"
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      value: "nisarg96968899",
+      href: "https://instagram.com/nisarg96968899/"
     }
   ];
 

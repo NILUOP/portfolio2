@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
           
           <div className="flex gap-6 justify-center mt-12">
             <a 
-              href="https://github.com/nisargkumar2005" 
+              href="https://github.com/niluop" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -50,12 +50,20 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/nisargkumar2005" 
+              href="https://linkedin.com/in/nisarg-chaudhary/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Linkedin className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://instagram.com/nisarg96968899/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Instagram className="h-6 w-6" />
             </a>
             <a 
               href="mailto:nisargkumar2005@gmail.com"
